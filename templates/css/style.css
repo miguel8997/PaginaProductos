@@ -1,0 +1,63 @@
+.card-title{
+	text-align: center;  
+}
+.card-text{
+	text-align: center;  
+	color: darkgrey;
+}
+.card-precio{
+	text-align: center;  
+    color: darkgrey;
+}
+.card-header{
+	padding: 15px;
+
+}
+.card-body{
+	background-color: rgb(68, 68, 110);
+}
+.card-inferior{
+	border:1px rgb(139, 136, 136) solid;
+	padding: 10px;
+	height: 65px;
+	margin-left: 11%;
+	width: 78%;
+}
+.card{
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px black solid;
+}
+
+.boton{
+    text-align: center;
+}
+.btn-primary{
+    text-align: center;  
+}
+.marca{
+	font-family: Aial;
+	text-align: center;
+	color: rgb(172, 161, 164);
+}
+.fondo{
+	background-image: url("https://saca7.blogs.uv.es/files/2016/10/61.jpg");
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(7px);
+	-o-filter: blur(7px);
+	-ms-filter: blur(7px);
+	filter: (7px);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.pagination{
+	margin-left: 33%;
+	width: 33.8%;
+	border:1px rgb(204, 204, 204) solid;
+
+}
