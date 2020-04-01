@@ -1,0 +1,41 @@
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 5px 15px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 200%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	z-index: 1000;
+}
+
+.submenu li a{
+	display: block;
+	padding: 10px;
+	color: #fff;
+    text-decoration: none;
+    
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.navbar{
+    background-color:#333333;
+}
